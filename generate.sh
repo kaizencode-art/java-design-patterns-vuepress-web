@@ -55,7 +55,7 @@ cd programming-principles
 git checkout-index  -f --prefix=../principles/ README.md
 
 # setup programming-principles - localizations
-languages=( zh ko es )
+languages=( zh ko es fr )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/principles
@@ -73,7 +73,7 @@ cd 30-seconds-of-java
 git checkout-index -f --prefix=../snippets/ README.md
 
 # setup 30-seconds-of-java - localizations
-languages=( zh ko es )
+languages=( zh ko es fr )
 for lan in "${languages[@]}"
 do
   mkdir ../$lan/snippets
